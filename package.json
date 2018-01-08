@@ -1,0 +1,32 @@
+{
+  "name": "doodle-pranavgade20",
+  "version": "1.1.0",
+  "description": "A fun new way to doodle!",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "build"
+  },
+  "build": {
+    "appId": "io.snapcraft.doodle",
+    "linux": {
+      "target": [
+        "snap"
+      ]
+    }
+  },
+  "repository": "https://github.com/notwaldorf/doodle",
+  "keywords": [
+    "Electron",
+    "snap",
+    "game",
+    "fun",
+    "doodle"
+  ],
+  "author": "Pranav Gade <pranavagde20@gmail.com>",
+  "license": "ISD",
+  "devDependencies": {
+    "electron": "~1.7.8",
+    "electron-builder": "^19.45.4"
+  }
+}
